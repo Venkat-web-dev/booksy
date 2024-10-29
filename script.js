@@ -51,6 +51,11 @@ function removeall(event)
 {
     event.target.parentElement.remove()
 }
+// scroll to popup close
+window.onscroll = () =>{
+    popupoverlay.style.display="none"
+    addcontent.style.display="none" 
+  }
 
 
 
